@@ -9,7 +9,7 @@ makedocs(
 )
 
 Documenter.deploydocs(
-    repo = "github.com/NREL-SIIP/PowerSystemsMaps.jl.git",
+    repo = "github.com/Sienna-Platform/PowerSystemsMaps.jl.git",
     target = "build",
     branch = "gh-pages",
     devbranch = "master",
