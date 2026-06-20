@@ -1,9 +1,9 @@
 # PowerSystemsMaps.jl
-[![main - CI](https://github.com/NREL-SIIP/PowerSystemsMaps.jl/actions/workflows/main-tests.yml/badge.svg)](https://github.com/NREL-SIIP/PowerSystemsMaps.jl/actions/workflows/main-tests.yml)
-[![codecov](https://codecov.io/gh/NREL-SIIP/PowerSystemsMaps.jl/branch/main/graph/badge.svg)](https://codecov.io/gh/NREL-SIIP/PowerSystemsMaps.jl)
-[<img src="https://img.shields.io/badge/slack-@SIIP/PG-blue.svg?logo=slack">](https://join.slack.com/t/nrel-siip/shared_invite/zt-glam9vdu-o8A9TwZTZqqNTKHa7q3BpQ)
+[![main - CI](https://github.com/Sienna-Platform/PowerSystemsMaps.jl/actions/workflows/main-tests.yml/badge.svg)](https://github.com/Sienna-Platform/PowerSystemsMaps.jl/actions/workflows/main-tests.yml)
+[![codecov](https://codecov.io/gh/Sienna-Platform/PowerSystemsMaps.jl/branch/main/graph/badge.svg)](https://codecov.io/gh/Sienna-Platform/PowerSystemsMaps.jl)
+[<img src="https://img.shields.io/badge/slack-@SIIP/PG-blue.svg?logo=slack">](https://join.slack.com/t/core-sienna/shared_invite/zt-glam9vdu-o8A9TwZTZqqNTKHa7q3BpQ)
 
-A (relatively) simple Julia module for plotting [PowerSystems.jl](https://github.com/nrel-siip/PowerSystems.jl) networks and making maps.
+A (relatively) simple Julia module for plotting [PowerSystems.jl](https://github.com/Sienna-Platform/PowerSystems.jl) networks and making maps.
 
 ## Installation
 
