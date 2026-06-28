@@ -2,9 +2,11 @@ using Test
 using TestSetExtensions
 using Logging
 using PowerSystems
+using CairoMakie  # load the backend before PowerSystemsMaps so CairoMakieExt is active
 using PowerSystemsMaps
 import DataFrames
 import CSV
+import Dates
 
 const PSY = PowerSystems
 const PSM = PowerSystemsMaps

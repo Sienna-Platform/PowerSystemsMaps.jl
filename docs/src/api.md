@@ -1,6 +1,6 @@
-# [PowerGraphics API](@id api)
+# [PowerSystemsMaps API](@id api)
 
 ```@autodocs
-Modules = [PowerGraphics]
+Modules = [PowerSystemsMaps]
 Public = true
 ```

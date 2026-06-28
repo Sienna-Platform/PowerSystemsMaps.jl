@@ -1,25 +1,40 @@
 name = "PowerSystemsMaps"
 uuid = "e146f72c-d4f8-45d3-b3ca-12a16cb68a38"
 authors = ["cbarrows <clayton.barrows@nrel.gov>"]
-version = "0.2.2"
+version = "0.3.0"
 
 [deps]
 Colors = "5ae59095-9a9b-59fe-a467-6f913c188581"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
 GeometryBasics = "5c1252a2-5f33-56bf-86c9-59e7332b4326"
 Graphs = "86223c79-3864-5bf0-83f7-82e725a168b6"
+InfrastructureSystems = "2cd47ed4-ca9b-11e9-27f2-ab636a7671f1"
 MetaGraphsNext = "fa8bd995-216d-47f1-8a91-f3b68fbeb377"
 NetworkLayout = "46757867-2c16-5918-afeb-47bfcb05e46a"
-Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
+PowerAnalytics = "56ce1300-00bc-47e4-ba8c-b166ccc19f51"
 PowerSystems = "bcd98974-b02a-5e2f-9ee0-a103f5c450dd"
 Shapefile = "8e980c4a-a4fe-5da2-b3a7-4b4b0353a2f4"
 
+[weakdeps]
+CairoMakie = "13f3f980-e62b-5c42-98c6-ff1f3baf88f0"
+PlotlyLight = "ca7969ec-10b3-423e-8d99-40f33abb42bf"
+
+[extensions]
+CairoMakieExt = "CairoMakie"
+PlotlyLightExt = "PlotlyLight"
+
 [compat]
-Colors = "0.12"
-GeometryBasics = "0.4"
-Graphs = "1.11"
-MetaGraphsNext = "0.7"
+CairoMakie = "0.15"
+Colors = "0.12, 0.13"
+DataFrames = "1"
+GeometryBasics = "0.4, 0.5"
+Graphs = "1.11, 1.12, 1.13"
+InfrastructureSystems = "3"
+MetaGraphsNext = "0.7, 0.8"
 NetworkLayout = "0.4"
-Plots = "1"
-PowerSystems = "4"
-Shapefile = "0.11, 0.12, 0.13"
-julia = "^1.6"
+PlotlyLight = "0.13"
+PowerAnalytics = "1"
+PowerSystems = "5"
+Shapefile = "0.13"
+julia = "^1.10"
